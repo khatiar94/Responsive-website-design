@@ -1,0 +1,321 @@
+/* header */
+.header-cover {
+    position: relative;
+    background-image: url('../image/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png');
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+.header-cover::before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    opacity: 60%;
+}
+
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    width: 70%;
+    padding: 10px;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 30px;
+    background-color: #55ACEE;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+}
+
+.hotelname {
+    color: #fff;
+}
+
+/* section 1 */
+.section_1 {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.left-block {
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.firsttext-block h1 {
+    color: #5863F8;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.firsttext-block p1 {
+     font-size: 40px;
+     margin-bottom: 40px;
+}
+
+.firsttext-block p2 {
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.firsttext-block p3 {
+    font-size: 14px;
+}
+
+.right-block {
+    max-width: 600px;
+}
+
+.blue-box {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #5863F8;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blue-box::after {
+    content: url('../image/arrow-right.svg');
+    margin-left: 10px;
+}
+
+/* section 2 */
+
+.section2-cover {
+    position: relative;
+    background-image: url('../image/chris-lee-70l1tDAI6rM-unsplash.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2-cover::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block;
+    opacity: 80%;
+}
+
+.small-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    left: 19%;
+    top: 10%;
+    transform: translate(-50%);
+    color: #fff;
+}
+
+.small-header h {
+    color: #3B5998;
+}
+
+.small-header p {
+    font-size: 40px;
+}
+
+.whiteboxes-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}    
+
+.white-box {
+    width: 250px;
+    background-color: white;
+    margin: 1px;
+}
+
+
+.roundbox {
+    display: flex;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+
+
+/* section 3 */
+.section_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 1200px;
+    margin: auto;
+    flex-direction: row;
+}
+
+.left-block-testimonials {
+    max-width: 600px;
+    width: 40%;
+    margin-right: 100px; 
+    margin-top: 50px;  
+}
+
+.left-block-testimonials h4 {
+    color: #5863F8;
+}
+
+.left-block-testimonials p1 {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+.left-block-testimonials h04 {
+    font-size: 12px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+
+.left-block-testimonials p3 {
+    font-size: 14px;
+}
+
+.name::before {
+    content:url('../image/marius-ciocirlan-vMV6r4VRhJ8-unsplash.svg')
+}
+
+.right-block-testimonials {
+    background-image: url('../image/bedroom.jpg');
+    width: 600px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* section 4 */
+
+.container-wraper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-wraper p {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 42px;
+}
+
+.text-wraper h5 {
+    color: #5863F8;
+}
+
+.images-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-block {
+    width: 350px;
+}
+
+
+/* footer */
+.footer-bg {
+    background-color: #121212;
+    padding: 90px 0 50px 0;
+    position: relative;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-block {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 50px;
+}
+
+.first {
+    width: 260px;
+}
+
+.first h {
+    font-size: 24px;
+}
+
+.first p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.contact-icon {
+    color: #5863F8;
+    margin-right: 15px;
+}
+
+.footer-social-icons {
+    display: flex;
+}
+
+.size-social {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-contact-fb {
+    background-color: #3B5998; 
+}
+
+.soc-contact-twitter {
+    background-color: #55ACEE;
+    margin:0 15px;
+}
+
+.soc-contact-google {
+    background-color: #DC4E41;
+}
+
+
+.ul-list {
+    color: #5863F8;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 170px;
+}

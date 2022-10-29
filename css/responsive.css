@@ -1,0 +1,27 @@
+/* header responsive */
+
+@media (max-width: 768px) {
+    .footer-block {
+        width: 45%;
+    }
+}
+@media (max-width:720px) {
+    .image-block:nth-child(2) {
+        margin: 30px 0;
+    }
+    .image-section-wraper {
+        justify-content: center;
+    }
+}
+@media (max-width:480px) {
+    .navigation{
+        display: none;
+    }
+    .burger-bar {
+        display: block; 
+    }
+    .footer-block {
+        width: 100%;
+    }
+    
+}
