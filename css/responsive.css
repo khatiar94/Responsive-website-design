@@ -1,27 +1,60 @@
-/* header responsive */
-
+/* responsive */
 @media (max-width: 768px) {
-    .footer-block {
-        width: 45%;
+    .burger-bar {
+        display: block;
+        margin-top: 20px;
     }
-}
-@media (max-width:720px) {
-    .image-block:nth-child(2) {
-        margin: 30px 0;
-    }
-    .image-section-wraper {
-        justify-content: center;
-    }
-}
-@media (max-width:480px) {
-    .navigation{
+
+    .navigations {
         display: none;
     }
-    .burger-bar {
-        display: block; 
+
+    .section_1 {
+        display: block;
     }
+
+    .images-wraper {
+        justify-content: center;
+    }
+
+    .section_2 {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 600px) {
+    .white-box {
+        width: 100px;
+    }
+
+    .white-box p {
+        font-size: 7px;
+    }
+
+    .hotelname {
+        margin-left: 30%;
+    }
+
+    .section_2 {
+        height: 500px;
+    }
+
+    .section_3 {
+        display: block;
+    }
+
+    .images-wraper {
+        display: block;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .small-header {
+        margin-left: 150px;
+    }
+
     .footer-block {
-        width: 100%;
+        width: 1500px;
     }
-    
 }
